@@ -7,7 +7,7 @@ export default function HiringInfo({ isShowingParagraph = true, classes }) {
     <div className={classes}>
       <Heading type="h3" label="AL ABED JAFRY" />
       {isShowingParagraph && (
-        <Paragraph>
+        <Paragraph classes="text-neutral-800 dark:text-neutral-300">
           I am available for freelance work. Connect with me via and call in to
           my account.
         </Paragraph>

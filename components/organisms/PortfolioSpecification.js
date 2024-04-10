@@ -12,7 +12,7 @@ export default function PortfolioSpecification({
   specification,
 }) {
   return (
-    <div className="w-2/5 p-4 ">
+    <div className="w-full lg:w-2/5 p-4 ">
       <BorderedSubheading label="Specification" />
 
       <PortfolioSpecificationLists

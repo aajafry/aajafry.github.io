@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Button from "../atoms/Button";
 import Heading from "../atoms/Heading";
+
 export default function PortfolioInfoWrapper({
   category,
   name,
@@ -11,13 +12,16 @@ export default function PortfolioInfoWrapper({
   return (
     <div className="project-content-wrapper mt-4 p-6">
       <div className="flex justify-between px-4">
-        <Link href={detailsSource}>
+        <Link
+          href={detailsSource}
+          className="text-neutral-800 dark:text-neutral-100 hover:text-rose-500 dark:hover:text-rose-500 transition duration-300 ease-linear"
+        >
           <Heading type="h4" label={name} classes="capitalize" />
         </Link>
         <Heading
           type="h4"
           label={category}
-          classes="text-rose-500 capitalize cursor-no-drop"
+          classes="text-rose-500 text-opacity-70 capitalize cursor-no-drop"
         />
       </div>
       <div className="project-cta-wrapper mt-4 flex justify-between gap-4">

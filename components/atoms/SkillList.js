@@ -7,7 +7,9 @@ export default function SkillList({ itemName, icon, classes }) {
   return (
     <li className={classes}>
       {icon && <div className={innerListDivClass}>{icon}</div>}
-      <Paragraph>{itemName}</Paragraph>
+      <Paragraph classes="text-neutral-800 dark:text-neutral-300">
+        {itemName}
+      </Paragraph>
     </li>
   );
 }

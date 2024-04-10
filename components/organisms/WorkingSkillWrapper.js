@@ -3,7 +3,7 @@ import WorkingSkillLists from "../molecules/WorkingSkillLists";
 
 export default function WorkingSkillWrapper() {
   return (
-    <div className="working-skill-wrapper w-1/2 p-4">
+    <div className="working-skill-wrapper w-full lg:w-1/2 p-4">
       <div className="skill-heading-wrapper">
         <BorderedSubheading
           label="working Skills"

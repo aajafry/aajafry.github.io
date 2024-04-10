@@ -68,6 +68,9 @@ textarea {
   margin: 12px auto;
   width: 100%;
 }
+.hireBtn a:hover {
+  color: unset;
+}
 
 .project-image-wrapper {
   height: 220px;
@@ -86,28 +89,13 @@ textarea {
 .project-image-wrapper:hover img {
   object-position: bottom center;
 }
-/* .my-masonry-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1rem;
-  margin-left: -0px;
-  width: auto;
-} */
-/* .my-masonry-grid_column {
-  padding-left: 0px;
-  background-clip: padding-box;
-} */
+
 .masonryStyle {
   /* height: fit-content !important; */
   /* position: relative !important; */
   overflow: hidden;
   cursor: pointer;
 }
-
-/* .my-masonry-grid_column > div {
-  margin-bottom: 30px;
-} */
 
 @layer utilities {
   .text-balance {

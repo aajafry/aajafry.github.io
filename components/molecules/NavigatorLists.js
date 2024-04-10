@@ -8,11 +8,15 @@ import {
 import NavigatorList from "../atoms/NavigatorList";
 
 const ListClasses =
-  "px-2 py-2 bg-slate-700 dark:bg-slate-200 rounded-md tracking-wide";
+  "px-2 py-2 bg-slate-200 dark:bg-slate-700 rounded-md tracking-wide";
 
 export default function NavigatorLists({ withLabel }) {
   return (
-    <ul className={`${!withLabel && "gap-4"} flex flex-col gap-2`}>
+    <ul
+      className={`${
+        !withLabel && "gap-4"
+      } flex flex-col gap-2 `}
+    >
       <NavigatorList href="/" classes={`${withLabel && ListClasses}`}>
         <FaHome className={`${withLabel && "text-rose-500"}`} />
         {withLabel && <span>home</span>}

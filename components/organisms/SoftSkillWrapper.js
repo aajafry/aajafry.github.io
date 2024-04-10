@@ -3,7 +3,7 @@ import SoftSkillLists from "../molecules/SoftSkillLists";
 
 export default function SoftSkillWrapper() {
   return (
-    <div className="soft-skill-wrapper w-1/2 p-4">
+    <div className="soft-skill-wrapper w-full lg:w-1/2 p-4">
       <div className="skill-heading-wrapper">
         <BorderedSubheading
           label="Soft Skills"

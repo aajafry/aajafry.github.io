@@ -30,14 +30,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-slate-800 dark:bg-slate-100 ${montserrat.className} ${poppins.className}`}
+        className={`antialiased bg-slate-100 dark:bg-slate-800 ${montserrat.className} ${poppins.className}`}
         // suppressHydrationWarning={true}
       >
         {/* toggle theme-switch icon-button */}
         <ThemeProvider>
           <ThemeSwitcher />
         </ThemeProvider>
-        <main className="flex min-h-screen text-white dark:text-black">
+        <main className="flex min-h-screen text-black dark:text-white">
           {/* <SidebarProvaider> */}
           <Sidebar />
           {children}

@@ -12,22 +12,49 @@ export default function BioTemplate() {
         classes="section-heading-wrapper relative flex items-center justify-center my-12"
       />
 
-      <AboutInfo classes="section-content-wrapper p-4">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-        consequuntur cum illo magnam omnis optio beatae consequatur deserunt
-        voluptatum! Ipsa atque adipisci repellat ut, itaque commodi eaque
-        cupiditate corrupti. Eos, debitis? Quibusdam repudiandae ab, magni
-        facilis veniam earum dolore unde esse ipsam, saepe, quod tempore
-        molestias cumque laudantium distinctio iste repellat sequi in inventore
-        quo.
-        <br /> Ducimus officia iure quis! Lorem ipsum dolor, sit amet
-        consectetur adipisicing elit. Architecto consequuntur cum illo magnam
-        omnis optio beatae consequatur deserunt voluptatum! Ipsa atque adipisci
-        repellat ut, itaque commodi eaque cupiditate corrupti. Eos, debitis?
-        Quibusdam repudiandae ab, magni facilis veniam earum dolore unde esse
-        ipsam, saepe, quod tempore molestias cumque laudantium distinctio iste
-        repellat sequi in inventore quo. Ducimus officia iure quis!
+      <AboutInfo classes="section-content-wrapper text-neutral-800 dark:text-neutral-300 p-4">
+        I am <strong>Al Abed Jafry,</strong> from Bangladesh, and I specialize
+        in frontend development with a focus on the MERN stack. Over the past
+        three years, I've crafted a variety of frontend applications using
+        <strong> React, Redux,</strong> and other tools. Additionally, I've
+        ventured into backend development with{" "}
+        <strong>Node.js, Express.js, and Next.js</strong>.
+        <br />
+        <br />I am passionate about{" "}
+        <strong> DevOps and System Design & Architecture,</strong> along with
+        <strong> Web Animation</strong>. In my spare time, I love diving into
+        learning and exploring topics such as about DevOps practices,
+        architectural design patterns, system scalability, and the latest
+        technologies.
+        <br />
+        <br />I am dedicated to building{" "}
+        <strong> clean, reusable, maintainable, and scalable </strong>
+        frontend applications using <strong>React.js and Next.js,</strong> while
+        also embracing<strong> REST and GraphQL</strong> for efficient data
+        management. Leveraging frameworks like
+        <strong> Tailwind CSS, Bootstrap, and MUI, </strong>
+        alongside <strong>GSAP</strong> for animation, I ensure efficient
+        development and delightful user experiences. My projects are built upon
+        the principles of{" "}
+        <strong>Atomic Design, Solid Architecture, and Dry, </strong> promoting
+        component reusability and maintainability.
+        <br />
+        <br />
+        On the backend, I have developed{" "}
+        <strong>Management Systems, E-commerce, and Blogs</strong> using
+        <strong> Node.js, Express.js, and Next.js,</strong> with data storage
+        facilitated by <strong>Firebase and MongoDB</strong>. Whether building
+        RESTful APIs or GraphQL backends, I prioritize robustness and
+        efficiency.
+        <br />
+        <br />
+        Driven by a vision to become a <strong>
+          System Design Architect,
+        </strong>{" "}
+        I remain vigilant in staying updated on the latest technologies and
+        eagerly embrace new challenges.
       </AboutInfo>
+      <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />
     </>
   );

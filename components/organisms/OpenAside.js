@@ -9,7 +9,7 @@ import SocialLinksWrapper from "./SocialLinksWrapper";
 export default function OpenAside() {
   return (
     <aside
-      className={`sidebar overflow-y-scroll h-screen transition duration-200 ease-in-out  hidden lg:block`}
+      className={`sidebar overflow-y-scroll h-screen transition duration-200 ease-in-out hidden lg:block`}
     >
       <div className="profile-banner-wrapper relative h-40">
         <Image

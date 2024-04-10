@@ -2,7 +2,7 @@ import PortfolioesTemplate from "@/components/templates/PortfolioesTemplate";
 
 export default function Portfolioes() {
   return (
-    <section className="content h-screen overflow-y-scroll grow px-20 py-8">
+    <section className="content h-screen overflow-y-scroll grow px-14 md:px-20 py-8">
       <PortfolioesTemplate />
     </section>
   );

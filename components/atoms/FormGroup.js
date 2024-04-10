@@ -9,7 +9,9 @@ export default function FormGroup({
 }) {
   return (
     <div className="form-group">
-      <label htmlFor={id}>{label}</label>
+      <label htmlFor={id} className="text-neutral-800 dark:text-neutral-300">
+        {label}
+      </label>
       {field == "input" && (
         <input
           type={type}

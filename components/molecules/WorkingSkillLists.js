@@ -23,7 +23,7 @@ const listIconClass = "scale-95 hover:scale-110";
 
 export default function WorkingSkillLists() {
   return (
-    <ul className="skill-list flex gap-6 flex-wrap">
+    <ul className="skill-list flex justify-center gap-6 flex-wrap">
       <SkillList
         itemName="HTML"
         classes={listClass}

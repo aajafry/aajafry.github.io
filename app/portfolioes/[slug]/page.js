@@ -13,7 +13,7 @@ export default function Portfolio({ params }) {
   const { slug } = params;
 
   return (
-    <section className="content h-screen overflow-y-scroll grow px-20 py-8">
+    <section className="content h-screen overflow-y-scroll grow px-10 lg:px-20 py-8">
       <PortfolioTemplate params={slug} />
     </section>
   );

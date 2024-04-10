@@ -12,10 +12,11 @@ export default function ExpertiseTemplate() {
         classes="section-heading-wrapper relative flex items-center justify-center my-12"
       />
 
-      <div className="section-content-wrapper flex sm:flex-col sm:items-center md:flex-row md:items-start">
+      <div className="section-content-wrapper flex flex-col lg:flex-row items-center lg:items-start">
         <WorkingSkillWrapper />
         <SoftSkillWrapper />
       </div>
+      <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />
     </>
   );

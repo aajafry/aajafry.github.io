@@ -12,9 +12,14 @@ export default function PortfolioSpecificationList({
     <li className={listClasses}>
       <strong>{label} :</strong>{" "}
       {href ? (
-        <Link href={href}> {description}</Link>
+        <Link href={href} className="text-neutral-800 dark:text-neutral-300">
+          {" "}
+          {description}
+        </Link>
       ) : (
-        <Paragraph>{description}</Paragraph>
+        <Paragraph classes="text-neutral-800 dark:text-neutral-300">
+          {description}
+        </Paragraph>
       )}
     </li>
   );

@@ -17,7 +17,7 @@ export default function PortfolioTemplate({ params }) {
         classes="section-heading-wrapper relative flex items-center justify-center my-12"
       />
 
-      <div className="section-content-wrapper flex gap-4">
+      <div className="section-content-wrapper flex flex-col-reverse lg:flex-row gap-4">
         <PortfolioDescription description={portfolioItem.description} />
         <PortfolioSpecification
           name={portfolioItem?.name}
@@ -28,6 +28,7 @@ export default function PortfolioTemplate({ params }) {
           specification={portfolioItem?.specification}
         />
       </div>
+      <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />
     </>
   );

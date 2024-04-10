@@ -12,10 +12,11 @@ export default function ContractsTemplate() {
         classes="section-heading-wrapper relative flex items-center justify-center my-12"
       />
 
-      <div className="section-content-wrapper flex sm:flex-col sm:items-center md:flex-row md:items-start">
-        <ContractInfo classes="contract-info-wrapper w-1/2 p-4" />
-        <ContractForm classes="contract-form-wrapper w-1/2 p-4" />
+      <div className="section-content-wrapper flex flex-col lg:flex-row items-center md:items-start">
+        <ContractInfo classes="contract-info-wrapper w-full lg:w-1/2 p-4" />
+        <ContractForm classes="contract-form-wrapper w-full lg:w-1/2 p-4" />
       </div>
+      <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />
     </>
   );

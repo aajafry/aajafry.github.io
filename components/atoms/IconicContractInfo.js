@@ -3,7 +3,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Paragraph from "./Paragraph";
 
-const paragraphClasses = "flex justify-start items-center gap-2";
+const paragraphClasses =
+  "text-neutral-800 dark:text-neutral-300 flex justify-start items-center gap-2";
 const iconClasses = "text-rose-500";
 
 export default function IconicContractInfo({ icon }) {

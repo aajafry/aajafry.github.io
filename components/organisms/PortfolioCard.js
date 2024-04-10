@@ -11,10 +11,10 @@ export default function PortfolioCard({
   detailsSource,
 }) {
   return (
-    <div className="project-wrapper h-fit bg-slate-800 dark:bg-slate-100 rounded-xl shadow hover:shadow-lg">
+    <div className="project-wrapper h-fit bg-slate-100 dark:bg-slate-800 rounded-xl shadow hover:shadow-lg">
       <div className="inner relative">
         <div className="project-image-wrapper overflow-hidden rounded-xl relative">
-          <Link href={detailsSource} className=" overflow-hidden relative">
+          <Link href={detailsSource} className="overflow-hidden relative">
             <Img
               isFixed={true}
               source={thumnilSrc}

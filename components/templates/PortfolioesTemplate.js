@@ -35,7 +35,7 @@ export default function PortfolioesTemplate() {
         />
         <PortfolioWrapper portfolioes={filteredPortfolioes} />
       </div>
-
+      <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />
     </>
   );
