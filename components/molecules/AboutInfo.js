@@ -6,12 +6,14 @@ import Paragraph from "../atoms/Paragraph";
 export default function AboutInfo({ classes, children }) {
   return (
     <div className={classes}>
-      <Img
-        isFixed={true}
-        source={aboutImage}
-        alt="profile image"
-        classes="h-96 mb-12 object-fill rounded-md"
-      />
+      <div className="w-full h-96 mb-12 relative">
+        <Img
+          isFixed={true}
+          source={aboutImage}
+          alt="profile image"
+          classes="w-full h-full rounded-md"
+        />
+      </div>
       <Paragraph classes="tracking-wide"> {children} </Paragraph>
     </div>
   );

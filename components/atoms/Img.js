@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Img({ isFixed, source, alt, classes }) {
+export default function Img({ isFixed, source, alt, classes, transitionDuration }) {
   if (isFixed) {
     return (
       <Image
@@ -13,6 +13,7 @@ export default function Img({ isFixed, source, alt, classes }) {
         // loading="lazy"
         // placeholder="blur"
         className={`${classes} w-full`}
+        style={{ transitionDuration: transitionDuration }}
       />
     );
   }
@@ -21,7 +22,8 @@ export default function Img({ isFixed, source, alt, classes }) {
       src={source}
       alt={alt}
       quality={100}
-      fill={true}
+      // fill={true}
+      layout="fill"
       loading="lazy"
       placeholder="blur"
       className={classes}

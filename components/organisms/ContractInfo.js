@@ -6,12 +6,12 @@ import SocialLinksWrapper from "./SocialLinksWrapper";
 export default function ContractInfo({ classes }) {
   return (
     <div className={classes}>
-      <div className="thumbnail relative h-40">
+      <div className="thumbnail relative w-full h-40">
         <Img
           isFixed={true}
           source={ContractThumbnail}
           alt="Contract Thumbnail image"
-          classes="h-full object-cover absolute rounded-xl"
+          classes="h-full w-full object-cover object-center absolute rounded-xl"
         />
       </div>
       <HiringInfo

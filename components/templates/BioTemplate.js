@@ -21,11 +21,10 @@ export default function BioTemplate() {
         <strong>Node.js, Express.js, and Next.js</strong>.
         <br />
         <br />I am passionate about{" "}
-        <strong> DevOps and System Design & Architecture,</strong> along with
+        <strong> System Design & Architecture,</strong> along with
         <strong> Web Animation</strong>. In my spare time, I love diving into
-        learning and exploring topics such as about DevOps practices,
-        architectural design patterns, system scalability, and the latest
-        technologies.
+        learning and exploring topics such as about architectural design
+        patterns, system scalability, and the latest technologies.
         <br />
         <br />I am dedicated to building{" "}
         <strong> clean, reusable, maintainable, and scalable </strong>
@@ -44,15 +43,12 @@ export default function BioTemplate() {
         <strong>Management Systems, E-commerce, and Blogs</strong> using
         <strong> Node.js, Express.js, and Next.js,</strong> with data storage
         facilitated by <strong>Firebase and MongoDB</strong>. Whether building
-        RESTful APIs or GraphQL backends, I prioritize robustness and
-        efficiency.
+        RESTful APIs, I prioritize robustness and efficiency.
         <br />
         <br />
-        Driven by a vision to become a <strong>
-          System Design Architect,
-        </strong>{" "}
-        I remain vigilant in staying updated on the latest technologies and
-        eagerly embrace new challenges.
+        Driven by a vision to become a{" "}
+        <strong> System Design Architect,</strong> I remain vigilant in staying
+        updated on the latest technologies and eagerly embrace new challenges.
       </AboutInfo>
       <div className="border divide-zinc-800 dark:divide-zinc-300 dark:opacity-30  my-12"></div>
       <Footer />

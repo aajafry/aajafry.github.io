@@ -9,6 +9,7 @@ export default function PortfolioCard({
   viewSource,
   codeSource,
   detailsSource,
+  transitionDuration,
 }) {
   return (
     <div className="project-wrapper h-fit bg-slate-100 dark:bg-slate-800 rounded-xl shadow hover:shadow-lg">
@@ -18,8 +19,9 @@ export default function PortfolioCard({
             <Img
               isFixed={true}
               source={thumnilSrc}
+              transitionDuration={transitionDuration}
               alt=""
-              classes="w-full h-52 transition duration-500 linear masonryStyle"
+              classes="w-full h-52 transition linear masonryStyle"
             />
           </Link>
         </div>
