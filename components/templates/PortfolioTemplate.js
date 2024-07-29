@@ -23,8 +23,6 @@ export default function PortfolioTemplate({ params }) {
           name={portfolioItem?.name}
           view={portfolioItem?.live}
           code={portfolioItem?.github}
-          userEmail={portfolioItem?.userEmail}
-          userPassword={portfolioItem?.userPassword}
           specification={portfolioItem?.specification}
         />
       </div>

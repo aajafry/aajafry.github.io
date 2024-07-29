@@ -52,7 +52,7 @@ export default function ContractForm({ classes }) {
         <Button
           type="submit"
           label="send message"
-          classes="w-full text-rose-500 font-light rounded shadow hover:shadow-md px-4 py-3 outline-none capitalize tracking-wider text-nowrap text-lg"
+          classes="w-full text-rose-500 border-[1px] font-light rounded shadow hover:shadow-md hover:bg-rose-500 hover:text-white px-4 py-3 outline-none capitalize tracking-wider text-nowrap text-lg transition-all"
         />
       </form>
     </div>

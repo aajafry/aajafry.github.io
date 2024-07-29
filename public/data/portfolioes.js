@@ -9,7 +9,7 @@ export const portfolioes = {
           category: "application",
           name: "inovex",
           featureImage:
-            "https://res.cloudinary.com/damrieqko/image/upload/v1710883560/aajafry/inovex.png",
+            "https://res.cloudinary.com/damrieqko/image/upload/v1722255994/aajafry/inovex.png",
           description: `INOVEX is an internal web application designed to help agencies manage and monitor their services, clients, quotations, orders, sales, accounts, and workflow. Inspired by AgencyHandy, this project emphasizes clean, maintainable code and modern technologies.
             <br/><br/>
             <b>Features:</b><br>
@@ -30,14 +30,40 @@ export const portfolioes = {
                 <li>Future plans include converting to atomic design for improved maintainability.</li>
             </ul>`,
           specification: "",
-          github: "https://github.com/aajafry/inovex/",
-          live: "https://inovex.vercel.app/",
-          userEmail: "admin@gmail.com",
-          userPassword: "Admin@123",
+          github: "https://github.com/aajafry/inovex",
+          live: "https://inovex.vercel.app",
           transitionDuration: "1s",
         },
         {
           id: 2,
+          category: "application",
+          name: "recto",
+          featureImage:
+            "https://res.cloudinary.com/damrieqko/image/upload/v1722177700/aajafry/recto.png",
+          description: `Recto is a responsive dashboard template based on React.
+            <br/><br/>
+            <b>Features:</b><br>
+              <ul class="highlightsBullet" style="list-style: square; padding-left: 1rem">
+                <li>Implemented Chart.js for visual representation of statistic and fullCalendar.js for schedule management application</li>
+                <li>Utilized bcrypt and Passport.js (local and oAuth) for token based secure authentication</li>
+                <li>Implemented user-friendly theme customization using context-api.</li>
+                <li>Emphasized clean, maintainable code following the atomic-design, SOLID-Architecture, DRY principle and use custom hook</li>
+            </ul>
+            <br/><br/>
+            <b>Technologies:</b>
+            <br>
+            <span style="color:#f43f5e">Frontend:</span> React, Tailwind, MUIv5, Axios, React-Icons, Zod, React-Hook-Form, React-Router-Dom-v6, MUI-Data-Grid, Chart.js, FullCalendar.js. 
+            <br>
+            <span style="color:#f43f5e">Backend:</span> Node.js, Express.js, Mongoose, CORS, JWT, Bcrypt, Passport.js.
+            <br/><br/>
+            `,
+          specification: "",
+          github: "https://github.com/aajafry/recto",
+          live: "https://recto-omega.vercel.app",
+          transitionDuration: "2s",
+        },
+        {
+          id: 3,
           category: "application",
           name: "GraphCMS",
           featureImage:
@@ -72,9 +98,19 @@ export const portfolioes = {
           specification: "",
           github: "https://github.com/aajafry/Graph-CMS-Blog",
           live: "https://jafry-graph-cms-blog.netlify.app/",
-          userEmail: "",
-          userPassword: "",
           transitionDuration: "2.5s",
+        },
+        {
+          id: 4,
+          category: "application",
+          name: "Pocket-Tracker",
+          featureImage:
+            "https://res.cloudinary.com/damrieqko/image/upload/v1722177701/aajafry/pocket-tracker.png",
+          description: `Pocket Tracker is an income-expense tracker application developed to explore the capabilities of Vue 3 and the Vue 3 Composition API. It features dark/light theme toggle, user authentication, and is developed using atomic design principles for modularity and reusability.`,
+          specification: "",
+          github: "https://github.com/aajafry/pocket-tracker",
+          live: "https://jafry-pocket-tracker.netlify.app",
+          transitionDuration: "1s",
         },
       ],
     },
@@ -93,12 +129,23 @@ export const portfolioes = {
           specification: "",
           github: "https://github.com/aajafry/Gericht-Restaurant",
           live: "https://jafry-gericht-restaurant.netlify.app/",
-          userEmail: "",
-          userPassword: "",
           transitionDuration: "7s",
         },
         {
           id: 2,
+          category: "template",
+          name: "shaha",
+          featureImage:
+            "https://res.cloudinary.com/damrieqko/image/upload/v1722199060/aajafry/shaha.png",
+          description:
+            "Shaha is a fully responsive islamic community website template built with React and GSAP. This template is designed to enhance Animation and UI/UX development, providing a seamless and engaging user experience across all devices.",
+          specification: "",
+          github: "https://github.com/aajafry/shaha",
+          live: "https://shahacenter.netlify.app",
+          transitionDuration: "7s",
+        },
+        {
+          id: 3,
           category: "template",
           name: "foodies",
           featureImage:
@@ -108,8 +155,6 @@ export const portfolioes = {
           specification: "",
           github: "https://github.com/aajafry/Foodies-Restaurant",
           live: "https://jafry-foodies-restaurant.netlify.app/",
-          userEmail: "",
-          userPassword: "",
           transitionDuration: "7s",
         },
       ],

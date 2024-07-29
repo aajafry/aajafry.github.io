@@ -8,7 +8,7 @@ export default function SocialLinks({ classes }) {
       <NavigatorList href="/">
         <FaLinkedin />
       </NavigatorList>
-      <NavigatorList href="/">
+      <NavigatorList href="https://github.com/aajafry">
         <FaGithub />
       </NavigatorList>
       <NavigatorList href="/">

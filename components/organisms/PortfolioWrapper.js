@@ -2,7 +2,7 @@ import PortfolioCard from "./PortfolioCard";
 
 export default function PortfolioWrapper({ portfolioes }) {
   return (
-    <div className="projects-section-wrapper mb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="projects-section-wrapper mb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {portfolioes.map((item, index) => (
         <PortfolioCard
           key={index}

@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar {
-  width: 0.525rem;
-}
-::-webkit-scrollbar-track {
-  background: #475569;
-}
-::-webkit-scrollbar-thumb {
-  background: #334155;
-}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --scrollbar-track: #eee;
+  --scrollbar-thumb: #ccc;
+}
+
+::-webkit-scrollbar {
+  width: 0.525rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
 }
 
 .montserrat {

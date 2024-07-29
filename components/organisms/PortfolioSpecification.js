@@ -7,8 +7,6 @@ export default function PortfolioSpecification({
   name,
   view,
   code,
-  userEmail,
-  userPassword,
   specification,
 }) {
   return (
@@ -19,8 +17,6 @@ export default function PortfolioSpecification({
         name={name}
         view={view}
         code={code}
-        userEmail={userEmail}
-        userPassword={userPassword}
         specification={specification}
       />
     </div>

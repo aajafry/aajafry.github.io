@@ -6,8 +6,6 @@ export default function PortfolioSpecificationLists({
   name,
   view,
   code,
-  userEmail,
-  userPassword,
   specification,
 }) {
   return (
@@ -23,19 +21,6 @@ export default function PortfolioSpecificationLists({
         description={code}
         href={code}
       />
-
-      {userEmail && (
-        <PortfolioSpecificationList
-          label="login email"
-          description={userEmail}
-        />
-      )}
-      {userPassword && (
-        <PortfolioSpecificationList
-          label="login password"
-          description={userPassword}
-        />
-      )}
     </ul>
   );
 }
