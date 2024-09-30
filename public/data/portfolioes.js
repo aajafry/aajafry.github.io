@@ -37,6 +37,36 @@ export const portfolioes = {
         {
           id: 2,
           category: "application",
+          name: "ecomart",
+          featureImage:
+            "https://res.cloudinary.com/damrieqko/image/upload/v1727708342/aajafry/ecomart.png",
+          description: `ECOMART is a responsive multi-vendor eCommerce web application built on the MERN stack. It is designed for comprehensive management of categories, products, coupons, orders, shops, accounts, employees, and customers, catering to the needs of organizations, shops, and individual customers.
+            <br/><br/>
+            <b>Features:</b><br>
+              <span style="color:#f43f5e">Management System:</span> Efficiently handle categories, products, coupons, orders, and shops, accounts, employees, and customers.<br>
+              <span style="color:#f43f5e">User Accounts:</span> Manage accounts for employees and customers seamlessly.<br>
+            <br/><br/>
+            <b>Technologies:</b>
+            <br>
+            <span style="color:#f43f5e">Frontend:</span> React, Tailwind, MUIv5, Axios, Moment.js, Zod, React-Hook-Form, React-Router-Dom-v6, MUI-Data-Grid, jwt-decode, react-image-magnify, react-toastify
+            <br>
+            <span style="color:#f43f5e">Backend:</span> Node.js, Express.js, Mongoose, CORS, JWT, Bcrypt, Cloudinary.
+            <br/><br/>
+            <b>Highlights:</b><br>
+            <ul class="highlightsBullet" style="list-style: square; padding-left: 1rem">
+                <li>Showcases my ability to use modern technologies and features, emphasized clean, maintainable code by adhering to atomic design principles, SOLID architecture, and the DRY principle.</li>
+                <li>Utilized custom hooks for enhanced functionality.</li>
+                <li>Utilized bcrypt and JWT for token based secure authentication and role-based authorization.</li>
+                <li>Implemented theme customization, cart, wishlist, and sidebar using Context API.</li>
+            </ul>`,
+          specification: "",
+          github: "https://github.com/aajafry/ecomart",
+          live: "https://letsgo-ecomart.vercel.app",
+          transitionDuration: "5s",
+        },
+        {
+          id: 3,
+          category: "application",
           name: "recto",
           featureImage:
             "https://res.cloudinary.com/damrieqko/image/upload/v1722177700/aajafry/recto.png",
@@ -63,7 +93,7 @@ export const portfolioes = {
           transitionDuration: "2s",
         },
         {
-          id: 3,
+          id: 4,
           category: "application",
           name: "GraphCMS",
           featureImage:
@@ -101,7 +131,7 @@ export const portfolioes = {
           transitionDuration: "2.5s",
         },
         {
-          id: 4,
+          id: 5,
           category: "application",
           name: "Pocket-Tracker",
           featureImage:

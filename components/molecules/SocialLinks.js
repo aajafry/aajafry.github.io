@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function SocialLinks({ classes }) {
   return (
     <ul className={classes}>
-      <NavigatorList href="https://bd.linkedin.com/in/aajafry">
+      <NavigatorList href="https://linkedin.com/in/aajafry">
         <FaLinkedin />
       </NavigatorList>
       <NavigatorList href="https://github.com/aajafry">
