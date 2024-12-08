@@ -7,12 +7,15 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
+import { BiLogoPostgresql } from "react-icons/bi";
 import {
   SiExpress,
   SiMongodb,
   SiMui,
   SiRedux,
+  SiSocketdotio,
   SiTailwindcss,
+  SiDrizzle,
 } from "react-icons/si";
 import SkillList from "../atoms/SkillList";
 
@@ -65,19 +68,29 @@ export default function WorkingSkillLists() {
         icon={<SiMongodb className={listIconClass} />}
       />
       <SkillList
+        itemName="Postgres"
+        classes={listClass}
+        icon={<BiLogoPostgresql className={listIconClass} />}
+      />
+      <SkillList
+        itemName="Socket.IO"
+        classes={listClass}
+        icon={<SiSocketdotio className={listIconClass} />}
+      />
+      <SkillList
         itemName="Git"
         classes={listClass}
         icon={<FaGitAlt className={listIconClass} />}
       />
       <SkillList
-        itemName="Bootstrap"
-        classes={listClass}
-        icon={<FaBootstrap className={listIconClass} />}
-      />
-      <SkillList
         itemName="Tailwind css"
         classes={listClass}
         icon={<SiTailwindcss className={listIconClass} />}
+      />
+      <SkillList
+        itemName="Bootstrap"
+        classes={listClass}
+        icon={<FaBootstrap className={listIconClass} />}
       />
       <SkillList
         itemName="MUI"
